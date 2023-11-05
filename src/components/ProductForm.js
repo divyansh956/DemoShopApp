@@ -21,6 +21,10 @@ function ProductForm(props) {
     function submitHandler(event) {
         event.preventDefault();
 
+        if (newTitle.trim().length === 0 || newDate.trim().length === 0 || newAmount.trim().length === 0) {
+            return alert("Please enter all fields");
+        }
+
         const productData = {
             title: newTitle,
             date: newDate,
