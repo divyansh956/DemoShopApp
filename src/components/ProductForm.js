@@ -43,7 +43,7 @@ function ProductForm(props) {
             </div>
             <div className='new-product_control'>
                 <label>Date</label>
-                <input type='date' value={newDate} onChange={dateChangeHandler} min='2023-01-01' max='2023-12-12'></input>
+                <input type='date' value={newDate} onChange={dateChangeHandler}></input>
             </div>
             <div className='new-product_control'>
                 <label>Amount</label>

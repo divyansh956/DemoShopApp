@@ -1,4 +1,4 @@
-.new-product__controls {
+.new-product_controls {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
@@ -6,14 +6,14 @@
   text-align: center;
 }
 
-.new-product__control label {
+.new-product_control label {
   font-weight: bold;
   margin-bottom: 0.5rem;
   display: block;
   text-align: left;
 }
 
-.new-product__control input {
+.new-product_control input {
   font: inherit;
   padding: 0.5rem;
   border-radius: 6px;
@@ -23,6 +23,6 @@
 }
 
 .new-product_button {
-  margin-top: 10px;
-  text-align: center;
+  margin-top: 20px;
+  text-align: right;
 }
